@@ -1,0 +1,51 @@
+html {
+    font-size:10px;
+    font-family: 'Mukta', sans-serif;
+    background-color:black;
+}
+
+body {
+    width:600px;
+    margin:0 auto;
+    background-color:black;
+    padding:0 20px 20px 20px;
+    border:10px solid red;
+}
+
+h1 {
+    font-size:50px;
+    text-align:center;
+    margin:0;
+    padding:20px 0;
+    color:white;
+    text-shadow:3px 3px 3px red;
+}
+
+p, li {
+    line-height:2;
+    letter-spacing:1px;
+    color:white;
+}
+
+li {
+    font-size:30px;
+}
+
+p {
+    font-size:16px;
+    text-indent:25px;
+}
+
+.container-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  background-color:#254117;
+  width:40%;
+  color:white;
+  font-size:25px;
+  font-family: 'Mukta', sans-serif;
+  border:3px solid #41A317;
+}
