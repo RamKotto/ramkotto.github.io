@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html id="myHtml">
+<html id="myHtml" lang='ru'>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
+        <meta name="author" content="Dmitrii Saraev">
+        <meta name="description" content="Черепашки-ниндзя впервые появились на страницах графического романа, появившегося Mirage Studios в 1984 году.">
+        <link rel="shortcut icon" href="images/r-ico.jpg" typr="image/x-icon">
         <link href='styles/style.css' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Mukta:wght@500&display=swap" rel="stylesheet">
         <title>TMNT</title>
     </head>
     <body id="myBody">
+      <div class="container">
         <h1 id="heading">Teenage Mutant <br> Ninja Turtles</h1>
-        <img id="main-img" src="images/tmnt-movie.jpg" width=600 height=375 alt="Черепашки ниндзя. Версия из фильма 2014 года.">
+        <img id="main-img" src="images/tmnt-movie.jpg" alt="Черепашки ниндзя. Версия из фильма 2014 года.">
         <p>
         Черепашки-ниндзя впервые появились на страницах графического романа,
         появившегося Mirage Studios в 1984 году. Идея о черепашках- мутантах появилась
@@ -22,7 +26,7 @@
         <hr>
         <ul>
             <li style='color:white;'>Рафаэль</li>
-            <img id="raph-img" src="images/raph-movie.jpg" width=540 height=325 alt='Рафаэль из фильма 2014 года.'>
+            <img id='raph-img' class='team-img' src="images/raph-movie.jpg" alt='Рафаэль из фильма 2014 года.'>
             <p>  Рафаэль — в ранних комиксах изображался как агрессивный,
             вспыльчивый и подозрительный ниндзя, что в некотором смысле осталось
             и в мультфильмах 2003 и 2007 годов. В мультсериалах и последующих работах
@@ -33,7 +37,7 @@
             Назван в честь Рафаэля Санти.</p>
             <hr>
             <li style='color:white;'>Донателло</li>
-            <img id="don-img" src="images/don-movie.jpg" width=540 height=325 alt='Донателло из фильма 2014 года.'>
+            <img id='don-img' class='team-img' src="images/don-movie.jpg" alt='Донателло из фильма 2014 года.'>
             <p>  Донателло — учёный-любитель, исследователь и «просто гений»,
             Донателло имеет репутацию заумного парня. Он, возможно, наименее агрессивный
             в команде, поскольку предпочитает разрешать конфликты мирным путём.
@@ -45,7 +49,7 @@
             Донато ди Никколо ди Бетто Барди.</p>
             <hr>
             <li style='color:white;'>Леонардо</li>
-            <img id="leo-img" src="images/leo-movie.jpg" width=540 height=325 alt='Леонардо из фильма 2014 года.'>
+            <img id='leo-img' class='team-img' src="images/leo-movie.jpg" alt='Леонардо из фильма 2014 года.'>
             <p>Леонардо — лидер черепашек, храбрый, решительный и преданный.
             Как строгий приверженец бусидо, он очень чётко следует правилам чести.
             Он носит синюю маску и пользуется двумя мечами — дайто.
@@ -53,7 +57,7 @@
             Его назвали в честь Леонардо да Винчи.</p>
             <hr>
             <li style='color:white;'>Микеланджело</li>
-            <img id="mikey-img" src="images/mikey-movie.jpg" width=540 height=325 alt='Микеланджело из фильма 2014 года.'>
+            <img id='mikey-img' class='team-img' src="images/mikey-movie.jpg" alt='Микеланджело из фильма 2014 года.'>
             <p>  Микеланджело — добродушный и беззаботный, главный весельчак в команде,
             чемпион битвы Нексус, отчего считает себя самым способным в команде и не
             очень любит тренировки. Становится гением в Измерении X. Любит читать комиксы
@@ -66,6 +70,7 @@
           <button class="button" id="classic">Classic version</button>
           <button class="button" id="actual">Actual version</button>
         </div>
+      </div>
         <script src="scripts/main.js"></script>
     </body>
 </html>
